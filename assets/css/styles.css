@@ -1,5 +1,21 @@
-body {
-  background-color: white;
+body{
+  background-color:#ccffff;
 }
-h1 {color:black;
+h6{
+  font-weight: bold;
+}
+#bigID{
+  font-size:75px;
+}
+.boldClass{
+  font-weight:bold
+}
+.testimony{
+  background-color:#ffff99;
+  border:2px black;
+  border-style:solid;
+  padding:0.25cm;
+}
+.navBar{
+  background-color:red;
 }
