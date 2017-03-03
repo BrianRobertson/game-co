@@ -5,7 +5,7 @@ h6{
   font-weight: bold;
 }
 #bigID{
-  font-size:75px;
+  font-size:10vw;
 }
 .boldClass{
   font-weight:bold
@@ -14,8 +14,21 @@ h6{
   background-color:#ffff99;
   border:2px black;
   border-style:solid;
-  padding:0.25cm;
+  padding:0.5cm;
+}
+.quotedPeople{
+  float: right;
+  padding-right: 2cm;
 }
 .navBar{
-  background-color:red;
+  background-color:#5D9CEC;
+}
+
+
+.is-blue-jeans {
+    background: #5D9CEC;
+    box-shadow: 0 .4vw 0 hsl(214, 68%, 44%);
+}
+.is-blue-jeans:hover {
+    background: #4A89DC;
 }
