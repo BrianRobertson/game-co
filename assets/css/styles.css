@@ -20,15 +20,95 @@ h6{
   float: right;
   padding-right: 2cm;
 }
-.navBar{
+.buyNow {
+  color: green;
+  background-color: white;
+}
+.buyNow:hover {
+  color: white;
+  background-color: green;
+}
+.LearnMore {
+  color: white;
+  background-color: #5D9CEC;
+}
+.LearnMore:hover {
+  color: white;
+  background-color: #4A89DC;
+}
+
+
+
+/*.navBar{
   background-color:#5D9CEC;
 }
+*/
 
 
-.is-blue-jeans {
-    background: #5D9CEC;
-    box-shadow: 0 .4vw 0 hsl(214, 68%, 44%);
+
+/* setting the max width*/
+/* setting the max width*/
+/*
+@media screen and (min-width: 50em) {
+    html {
+        font-size: 1.8em;
+    }
 }
-.is-blue-jeans:hover {
+
+@media screen and (min-width: 80em) {
+    .button {
+        font-size: .6em;
+        padding: 2.3em 2em 1em 2em;
+    }
+}
+*/
+/*
+body {
+    margin: 3vw;
+}
+*/
+/*
+.buttons-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/*
+h2 {
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif
+}
+
+p {
+    text-align: center;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+*/
+.button {
+    border: solid;
+    height:50px;
+    width: 225px;
+    text-align: center;
+    padding: 1.2vw 3vw 1vw;
+    border-radius: 0.2vw;
+    font-weight: bold;
+    text-transform: none; /*uppercase;*/
+    margin: 1.3vw;
+    outline: none;
+    cursor: pointer;
+    transition: all .15s;
+    color: white;
+}
+.for-navigation {
+    background: #5D9CEC;
+}
+.for-navigation:hover {
     background: #4A89DC;
 }
+/*clean up dead code*/
