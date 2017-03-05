@@ -5,6 +5,18 @@ body{
   font-size:10vw;
   font-weight: bold;
 }
+h2{
+  font-size:7vw;
+  font-weight: bold;
+}
+h4{
+  font-weight: bold;
+  text-align: center;
+}
+h5{
+  font-style: italic;
+  font-weight: bold;
+}
 h6{
   font-weight: bold;
 }
@@ -111,3 +123,9 @@ p {
     background: #4A89DC;
 }
 /*page two and following*/
+.sideBar {
+  background-color:white;
+  border:2px black;
+  border-style:solid;
+  padding:0.5cm;
+}
