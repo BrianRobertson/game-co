@@ -1,14 +1,15 @@
 body{
   background-color:#ccffff;
 }
+#bigID{
+  font-size:10vw;
+  font-weight: bold;
+}
 h6{
   font-weight: bold;
 }
-#bigID{
-  font-size:10vw;
-}
 .boldClass{
-  font-weight:bold
+  font-weight:bold;
 }
 .testimony{
   background-color:#ffff99;
@@ -22,6 +23,7 @@ h6{
 }
 .buyNow {
   color: green;
+  font-weight: bold;
   background-color: white;
 }
 .buyNow:hover {
@@ -30,6 +32,7 @@ h6{
 }
 .LearnMore {
   color: white;
+  font-weight: bold;
   background-color: #5D9CEC;
 }
 .LearnMore:hover {
@@ -37,16 +40,12 @@ h6{
   background-color: #4A89DC;
 }
 
-
-
 /*.navBar{
   background-color:#5D9CEC;
 }
 */
 
 
-
-/* setting the max width*/
 /* setting the max width*/
 /*
 @media screen and (min-width: 50em) {
@@ -111,4 +110,4 @@ p {
 .for-navigation:hover {
     background: #4A89DC;
 }
-/*clean up dead code*/
+/*page two and following*/
